@@ -4,3 +4,7 @@
  *
  * 2. Виведите в консоль длину этой строки
  */
+
+const myFullName = 'Yury Kavalenka';
+
+console.log(myFullName.length);
