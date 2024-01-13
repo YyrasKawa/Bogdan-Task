@@ -6,3 +6,9 @@
  *
  * 3. Выведите в консоль длину массива
  */
+
+
+const newArray = ['Yury Kavalenka', 12, true];
+
+console.log(newArray[0]);
+console.log(newArray.length);

@@ -12,3 +12,14 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+
+const myFavoriteDog = 'husky';
+
+ console.log(myFavoriteDog instanceof String);
+
+ console.log(typeof myFavoriteDog);
+
+ const seasonToUpperCase = myFavoriteDog.toUpperCase();
+
+ console.log(seasonToUpperCase);
