@@ -8,3 +8,13 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+
+
+const myArray = ['Yury Kavalenka', 40, true];
+
+console.log(myArray);
+
+myArray[1] = 41;
+
+console.log(myArray);
+

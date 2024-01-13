@@ -6,3 +6,17 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+
+const myFavoriteFruits = ['apple', 'banana', 'orange', 'kiwi'];
+
+console.log(myFavoriteFruits);
+
+myFavoriteFruits.push('tangerine');
+
+console.log(myFavoriteFruits);
+
+myFavoriteFruits.push("lemon", 'pear');
+
+console.log(myFavoriteFruits);
+

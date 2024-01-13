@@ -17,6 +17,30 @@
 Возвращает разницу двух чисел 
 */
 
+/**
+ * Возвращает разницу двух чисел
+ * @param {number} a 
+ * @param {number} b 
+ * @returns {number} Разница чисел
+ */
 function differenceNumber(a, b) {
-
+    return a - b
 }
+
+differenceNumber(10, 5);
+
+
+
+/**
+ * Возвращает сумму двух чисел 
+ * @param {number} a 
+ * @param {number} b 
+ * @returns {number} Сумма чисел
+ */
+function addition(a, b) {
+    return a + b
+}
+
+const add = addition(10, 25);
+
+console.log(add);

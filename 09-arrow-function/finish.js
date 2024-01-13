@@ -12,3 +12,8 @@
  */
 
 
+const myArrow = () =>  "Привет, мир!";
+
+
+
+console.log(myArrow());
