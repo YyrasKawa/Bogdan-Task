@@ -12,4 +12,5 @@ function fn() {
   }
 }
 
-fn()(true)
+fn()(true) // Привет из функции fn
+          // true
