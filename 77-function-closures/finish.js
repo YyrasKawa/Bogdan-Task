@@ -13,6 +13,22 @@
  *  - greet
  *  - changeGreeting
  */
+function createGreeting() {
+    let greetingString = 'Hey, this is'
+
+    function greet(name) {
+        return `${greetingString} ${name}`
+    }
+    
+    function changeGreeting(change) {
+        return greetingString = change
+    }
+
+    return {
+        greet,
+        changeGreeting
+    }
+}
 
 const greeting1 = createGreeting()
 

@@ -28,6 +28,8 @@ function sumObjectValues(nums) {
   return sum
 }
 
+
+
 const result = sumObjectValues(objectWithNumbers)
 console.log(result)
 //42
